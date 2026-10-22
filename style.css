@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 110px;
+    padding: 30px;
+}
+
+img{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+.ul-iteam ul{
+    display: flex;
+    gap: 40px;
+}
+
+.ul-iteam li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+.ul-iteam li {
+    list-style: none;
+}
+.btn-3{
+    padding: 16px;
+    width: 100px;
+    border: none;
+    font-size: 1em;
+    border-radius: 8px;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+
+
+.hero{
+    background-image: url(/image/pexels-atahandemir-28301967.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    min-height: 700px; 
+}
+    
+    .h1{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 200px;
+
+    
+    }
+    
+.h1 h1{
+    color: white;
+    font-size: 4em;
+}
+.h1 p{
+    color: green;
+    font-size: 2.5em;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 100px;
+}
+.btn-1{
+    padding: 19px;
+    width: 150px;
+    border: none;
+    font-size: 1em;
+    border-radius: 8px;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn-2{
+     padding: 16px;
+    width: 150px;
+    height: 60px;
+    border: none;
+    font-size: 1em;
+    border-radius: 8px;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
